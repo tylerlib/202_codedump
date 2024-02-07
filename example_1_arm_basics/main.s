@@ -16,7 +16,7 @@ Label 	B Label ; This is an unconditional branch instruction that transfers the 
 		ENDP	; every PROC should end with an ENDP	
 
 		AREA    myData, DATA, READWRITE ; name of the area, data/code section, read/write access
-		ALIGN
+		ALIGN ;ensure that proper byte boundary alignment is respected more here: https://developer.arm.com/documentation/dui0068/b/Directives-Reference/Miscellaneous-directives/ALIGN
 VAR  	EQU 0xAA ;In this case VAR is an alias for value 0xAA. think of it as a #define in c/c++, this will NOT create a physical memory location where 0xAA is allocated
 VAR1	DCW VAR ;This is more like a static, where your resulting binary file will have a byte of memory allocated to VAR1 and is equal to 0xAA 
 		END ; letting your arm compiler know that it has reached the end of the code
