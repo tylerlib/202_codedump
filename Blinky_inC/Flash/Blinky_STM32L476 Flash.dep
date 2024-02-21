@@ -1,0 +1,67 @@
+Dependencies for Project 'Blinky', Target 'STM32L476 Flash': (DO NOT MODIFY !)
+CompilerVersion: 6210000::V6.21::ARMCLANG
+F (.\Blinky.c)(0x65AEEEDA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_STM32L476_Flash-IC:/Users/vikgo/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.2/Drivers/CMSIS/Device/ST/STM32L4xx/Include-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.2/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32L476xx -D_RTE_-o ./flash/blinky.o -MD)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board\Board_LED.h)(0x5D14B81A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board\Board_Buttons.h)(0x5D14B81A)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.2\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x659C742C)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.2\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x659C742C)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.2\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x659C742C)
+F (.\stdout_USART.c)(0x659C73BD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_STM32L476_Flash-IC:/Users/vikgo/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.2/Drivers/CMSIS/Device/ST/STM32L4xx/Include-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.2/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32L476xx -D_RTE_-o ./flash/stdout_usart.o -MD)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.2\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x659C742C)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.2\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x659C742C)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x627001AE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.2\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x659C742C)
+I (RTE\_STM32L476_Flash\RTE_Components.h)(0x659C7445)
+F (.\Abstract.txt)(0x659C73BD)()
+F (C:/Users/vikgo/AppData/Local/Arm/Packs/Keil/STM32NUCLEO_BSP/1.8.1/Boards/ST/NUCLEO-L476RG/Common/Buttons_NUCLEO-L476RG.c)(0x659C73BD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_STM32L476_Flash-IC:/Users/vikgo/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.2/Drivers/CMSIS/Device/ST/STM32L4xx/Include-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.2/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32L476xx -D_RTE_-o ./flash/buttons_nucleo-l476rg.o -MD)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.2\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x659C742C)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.2\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x659C742C)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x627001AE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.2\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x659C742C)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board\Board_Buttons.h)(0x5D14B81A)
+F (C:/Users/vikgo/AppData/Local/Arm/Packs/Keil/STM32NUCLEO_BSP/1.8.1/Boards/ST/NUCLEO-L476RG/Common/LED_NUCLEO-L476RG.c)(0x659C73BD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_STM32L476_Flash-IC:/Users/vikgo/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.2/Drivers/CMSIS/Device/ST/STM32L4xx/Include-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.2/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32L476xx -D_RTE_-o ./flash/led_nucleo-l476rg.o -MD)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.2\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x659C742C)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.2\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x659C742C)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x627001AE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.2\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x659C742C)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board\Board_LED.h)(0x5D14B81A)
+F (C:/Users/vikgo/AppData/Local/Arm/Packs/Keil/ARM_Compiler/1.7.2/Source/retarget_io.c)(0x584EE08E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_STM32L476_Flash-IC:/Users/vikgo/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.2/Drivers/CMSIS/Device/ST/STM32L4xx/Include-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.2/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32L476xx -D_RTE_-o ./flash/retarget_io.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x656A66E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x656A66E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x656A66E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x656A66E2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\rt_sys.h)(0x656A66E2)
+I (RTE\_STM32L476_Flash\RTE_Components.h)(0x659C7445)
+F (RTE/Device/STM32L476RGTx/startup_stm32l476xx.s)(0x659C73BD)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1" -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_STM32L476_Flash-IC:/Users/vikgo/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.2/Drivers/CMSIS/Device/ST/STM32L4xx/Include-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.2/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 539" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32L476xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./flash/startup_stm32l476xx.o)
+F (RTE/Device/STM32L476RGTx/system_stm32l4xx.c)(0x659C73BD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_STM32L476_Flash-IC:/Users/vikgo/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.2/Drivers/CMSIS/Device/ST/STM32L4xx/Include-IC:/Users/vikgo/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.2/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32L476xx -D_RTE_-o ./flash/system_stm32l4xx.o -MD)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.2\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x659C742C)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.2\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l476xx.h)(0x659C742C)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x627001AE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x656A66E2)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x627001AE)
+I (C:\Users\vikgo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.6.2\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x659C742C)
